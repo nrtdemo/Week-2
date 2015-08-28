@@ -1,6 +1,6 @@
 using System;
 
-namespace Lab2
+namespace Lab202
 {
 	class MainClass
 	{
@@ -21,7 +21,7 @@ namespace Lab2
 			cpe200.CourseID = "261200";
 			Console.WriteLine (cpe200);
 			cpe200.CourseID = "2612OO";
-			cpe200.CourseID = "2612002";
+            cpe200.CourseID = "2612002";
 
 			cpe200.NumStudents = 40;
 			Console.WriteLine (cpe200);
@@ -41,6 +41,7 @@ namespace Lab2
 			cpe453.MaxStudents = 20;
 			Console.WriteLine (cpe453);
 
+            Console.ReadKey();
 		}
 	}
 }
