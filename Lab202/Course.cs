@@ -23,9 +23,7 @@ namespace Lab202
                     _CourseID = value;
                 }
                 else
-                {
-                    Console.WriteLine("{0}: error try setting invalid CourseID!", CourseID);
-                }
+                    Console.WriteLine(CourseID + ": error try setting invalid CourseID!");
             }
         }
         public string Lecturer
@@ -38,7 +36,7 @@ namespace Lab202
             get { return _MaxStudents; }
             set
             {
-                if (value >= 0 && value <= 80 && value >= MaxStudents)
+                if (value >= 0 && value <= 80 && value >= NumStudents)
                 {
                     _MaxStudents = value;
                 }
