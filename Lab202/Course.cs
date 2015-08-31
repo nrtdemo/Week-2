@@ -18,12 +18,15 @@ namespace Lab202
             get { return _CourseID; }
             set
             {
-                if (value.Length == 6 && value != CourseID)
+                int number;
+                bool check = int.TryParse(value, out number);
+                if (value.Length == 6 && value != CourseID && check)
                 {
                     _CourseID = value;
                 }
                 else
                     Console.WriteLine(CourseID + ": error try setting invalid CourseID!");
+
             }
         }
         public string Lecturer

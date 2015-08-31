@@ -18,9 +18,9 @@ namespace Lab202
 
 			/* playing with cpe200 object */
 			Console.WriteLine ("\n--- playing with cpe200 object ---");
-			cpe200.CourseID = "261200";
+            cpe200.CourseID = "261200";
 			Console.WriteLine (cpe200);
-			cpe200.CourseID = "261200";
+			cpe200.CourseID = "2612OO";
             cpe200.CourseID = "2612002";
 
 			cpe200.NumStudents = 40;
